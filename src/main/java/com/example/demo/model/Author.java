@@ -8,4 +8,5 @@ import lombok.Setter;
 public class Author {
     private Long Author_ID;
     private String Name;
+    private String email;
 }
