@@ -1,0 +1,51 @@
+
+.page-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    
+}
+
+.page-header input{
+    border:2px solid darkgrey;
+    height:2.5rem;
+    box-sizing: border-box;
+    border-right:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.page-header input:focus{
+    border:2px solid #8299fe;
+    border-right:none;
+    outline:none;
+}
+
+.page-header button{
+    border:none;
+    height:2.5rem;
+    border-left:none;
+    box-sizing: border-box;
+    background-color: #8299fe;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+}
+
+.page-header button:hover{
+    cursor:pointer;
+}
+
+.page-header select{
+    border:2px solid darkgrey;
+    margin-right:1rem;
+    height:2.5rem;
+    border-radius:5px;
+}
+
+.page-header select:focus{
+    border:2px solid #8299fe;
+    outline:none;
+}
+
