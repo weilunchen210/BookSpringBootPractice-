@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class User {
-    private Long BookID;
+public class Author {
+    private Long Author_ID;
     private String Name;
 }
